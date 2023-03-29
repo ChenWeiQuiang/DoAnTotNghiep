@@ -1,0 +1,64 @@
+.cart-image {
+  width: 200px;
+}
+
+.btn-add-to-cart > i {
+  color: #fff;
+}
+
+.button-primary {
+  background-color: #333;
+  border: 1px solid #333;
+  color: #fff;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 9px 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.button-primary > a {
+  color: #fff;
+}
+
+.button-primary:hover {
+  background-color: #050035;
+  color: #fff;
+  border: 1px solid #050035;
+}
+
+button {
+  cursor: pointer !important;
+}
+
+.hr-custom {
+  border: none;
+  height: 20px;
+  width: 90%;
+  height: 50px;
+  margin-top: 0;
+  border-bottom: 1px solid #1f1209;
+  box-shadow: 0 20px 20px -20px #333;
+  margin: -50px auto 10px;
+}
+.pagination {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.pagination-link {
+  padding: 10px;
+  color: blue;
+  text-decoration: none;
+}
+
+.pagination-link.active {
+  color: red;
+  cursor: default;
+  text-decoration: underline;
+}
