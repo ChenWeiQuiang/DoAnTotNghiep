@@ -37,7 +37,7 @@
 - MySQL
 
 ## Cài đặt
-Tải project và tạo database `TT_TotNghiep_2023` sau đó import file `15_php_2022.sql` trong thư mục docs của dự án.
+Tải project và tạo database `DoAnTotNghiep` sau đó import file `15_php_2022.sql` trong thư mục docs của dự án.
 #� �D�o�A�n�T�o�t�N�g�h�i�e�p�
 �
 �#� �D�o�A�n�T�o�t�N�g�h�i�e�p�
