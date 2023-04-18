@@ -1,6 +1,6 @@
 <?php
 $actual_link = "$_SERVER[REQUEST_URI]";
-if ($actual_link === "/TT_TotNghiep_2023/admin/" || $actual_link === "/TT_TotNghiep_2023/admin/index.php") {
+if ($actual_link === "/DoAnTotNghiep2023/admin/" || $actual_link === "/DoAnTotNghiep2023/admin/index.php") {
     $url_logo = "index.php";
     $src_assets = "";
 } else {

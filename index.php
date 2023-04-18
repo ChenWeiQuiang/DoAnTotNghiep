@@ -90,7 +90,7 @@ if (isset($_GET['name'])) {
                                             </div>
                                         </div>
                                         <div class="product-content">
-                                            <a href="product-details.html" style="display:block;">
+                                            <a href="product-detail.php?id=<?= $r['id'] ?>" style="display:block;">
                                                 <h4><?= $r['name'] ?></h4>
                                                 <div style=" text-decoration: line-through;"><?= number_format($r['price']) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
                                                 <div style="color:red;font-weight: bold;font-size: 18px;"><?= number_format($r['price'] * (1 - $r['discount'] / 100)) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
@@ -181,7 +181,7 @@ if (isset($_GET['name'])) {
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
-                                                    <a href="product-details.html" style="display:block;">
+                                                    <a href="product-detail.php?id=<?= $r['id'] ?>" style="display:block;">
                                                         <h4><?= $r2['name'] ?></h4>
                                                         <div style=" text-decoration: line-through;"><?= number_format($r2['price']) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
                                                         <div style="color:red;font-weight: bold;font-size: 18px;"><?= number_format($r2['price'] - ($r2['price'] * $r2['discount'] / 100))  ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
@@ -228,7 +228,7 @@ if (isset($_GET['name'])) {
                                                     </div>
                                                 </div>
                                                 <div class="product-content">
-                                                    <a href="product-details.html" style="display:block;">
+                                                    <a href="product-detail.php?id=<?= $r['id'] ?>" style="display:block;">
                                                         <h4><?= $r2['name'] ?></h4>
                                                         <div style=" text-decoration: line-through;"><?= number_format($r2['price']) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
                                                         <div style="color:red;font-weight: bold;font-size: 18px;"><?= number_format($r2['price'] * (1 - $r2['discount'] / 100)) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
@@ -449,7 +449,7 @@ if (isset($_GET['name'])) {
                                             </div>
                                         </div>
                                         <div class="product-content">
-                                            <a href="product-details.html" style="display:block;">
+                                            <a href="product-detail.php?id=<?= $r['id'] ?>" style="display:block;">
                                                 <h4><?= $item['name'] ?></h4>
                                                 <div style=" text-decoration: line-through;"><?= number_format($item['price']) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
                                                 <div style="color:red;font-weight: bold;font-size: 18px;"><?= number_format($item['price'] * (1 - $item['discount'] / 100)) ?><span style="text-decoration: underline;"><sup>đ</sup></span></div>
