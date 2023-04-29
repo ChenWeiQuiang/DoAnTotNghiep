@@ -9,7 +9,7 @@ if (!isset($_SESSION)) {
             <div class="header-bottom-wrapper">
                 <div class="logo-2 furniture-logo ptb-30">
                     <a href="index.php">
-                        <img src="user/assets/img/logo/logo-new.png" alt="" style="width: 180px; height: 40px" />
+                        <img src="user/assets/img/logo/MinhAnh.png" alt="" style="width: 180px; height: 40px" />
                     </a>
                 </div>
                 <div class="menu-style-2 furniture-menu menu-hover">

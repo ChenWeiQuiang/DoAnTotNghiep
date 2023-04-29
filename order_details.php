@@ -89,7 +89,8 @@ include("services/connect.php");
                             <div class="row">
                                 <div class="col-md-5 ml-auto">
                                     <div class="cart-page-total">
-                                        <a href="index.php">Trở về trang chủ</a>
+                                        <a href="bill_print.php?id=<?php echo $id ?>">In hóa đơn</a>
+                                        <!-- <a href="index.php">Trở về trang chủ</a> -->
                                     </div>
                                 </div>
                             </div>

@@ -18,7 +18,7 @@ require('../services/connect.php');
         <div class="left-side-menu">
 
             <!-- LOGO -->
-            <?php include('components/logo.php') ?>
+                <?php include('components/logo.php') ?>
             <!-- END LOGO -->
             <div class="h-100" id="left-side-menu-container" data-simplebar>
 

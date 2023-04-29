@@ -8,7 +8,7 @@ if (!isset($_SESSION)) {
     <div class="header-area">
         <div class="header-left-sidebar">
             <div class="logo">
-                <a href="index.php"><img src="user/assets/img/logo/logo-new.png" alt="" style="width: 167px;height: 42px;"></a>
+                <a href="index.php"><img src="user/assets/img/logo/MinhAnh.png" alt="" style="width: 250px;height: 63px;"></a>
             </div>
             <div class=" main-menu menu-hover">
                 <nav>

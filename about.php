@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="story-img">
-                        <img src="user/assets/img/logo/logo-new.png" alt="" />
+                        <img src="user/assets/img/logo/MinhAnh.png" alt="" />
                     </div>
                 </div>
                 <div class="col-lg-6">
